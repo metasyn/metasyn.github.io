@@ -1,4 +1,296 @@
-<html>
-hi
-</html>
+<!DOCTYPE html>
 
+<!-- WELCOME O DIGITAL TRAVELER
+
+The code of this particular website, albeit mine, isn't really something I'm proud of. More out of laziness and interest in other projects, I've neglected to update it's structure for years, and laugh at how some of the things are organized. In particular, I made this with bootstrap & some really unnecessary jquery. If you've ever read http://motherfuckingwebsite.com, you'll get an idea of how emarassed I am.  I guess you can laugh along too - know you're not alone ^__^
+
+MAY RED PANDAS BLESS YOUR EVERY STEP -->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="metasyn meta syn medicine">
+    <meta name="author" content="Alexander Johnson">
+    <link rel="shortcut icon" href="./img/favicon.ico">
+
+    <title>alexander johnson | metasyn</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="container" >
+
+      <div class="jumbotron" id="main">
+        <center>
+        <div class='wobble'>
+            <h1 id="name">alexander johnson</h1>
+        </div> <!-- wobble div -->
+      <h2>
+        <a href="#work">work</a> |
+        <a href="#research">research</a> |
+        <a href="#projects">projects</a> |
+        <a href="#contact">contact</a> |
+        <a href="http://blog.metasyn.pw">blog</a> |
+        <a href="shows/">shows</a>
+      </center>
+
+        <div id="about" class="section">
+          <center>
+            <p>I'm interested in the intersections:</p>
+         	<br><br>
+          <button
+            type="button"
+            id="linguisticsbutton"
+            class="btn btn-link"
+            data-container="body"
+            data-toggle="popover"
+            data-placement="top"
+            title="Language"
+            data-content="Language encompasses so much; a system to reason about
+              and understand the world alongside unparalleled telepathy. I think
+              it is the most interesting entry point to studying human cognition.
+              After studying linguistics at UCSB, I'm quite functionalist-oriented
+              . Check out the research link to see my undergrad thesis on
+              computational linguistics and vector space models of semantics.">
+            <img src="./img/lang.png" height="100">
+          </button>
+
+          <button
+            type="button"
+            id="technologybutton"
+            class="btn btn-link"
+            data-container="body"
+            data-toggle="popover"
+            data-placement="bottom"
+            title="Technology"
+            data-content="I see technology as an essential part of moving
+              ourselves to a more transparent, democratic, equal, and creative
+              planet.Visit my github to see some examples of projects
+              I've been working on.">
+            <img src="./img/code.png" height="115">
+          </button>
+
+          <button
+            type="button"
+            id="peoplebutton"
+            class="btn btn-link"
+            data-container="body"
+            data-toggle="popover"
+            data-placement="top"
+            title="People"
+            data-content="I really enjoy trying to understand people; where they
+              come from, how they think and why they do the things they do, all the
+              intricacies between culture, language, art, sexuality, power, and
+              money. I enjoy reading social theory & am interested in helping
+              re-structure our societies to be more inclusive, democratic,
+              egalitarian, efficent, and expressive of who we really are. The human
+              element, after all, is what what makes everything else interesting,
+              or even worth it at all.">
+            <img src="./img/people.png" height="100">
+          </button>
+
+         <br><br>
+
+         	<p>I also think these things are pretty neat:</p>
+
+         	<button
+            type="button"
+            id="coopbutton"
+            class="btn btn-link"
+            data-container="body"
+            data-toggle="popover"
+            data-placement="bottom"
+            title="Cooperation"
+            data-content="Living in a  coop for three years taught me how much I
+              appreciate non-hierarchical decision making. I was house treasurer,
+              manager, president, and board treasurer at different points. I think
+              non-profits are awesome and am hoping to stay involved in the
+              cooperative movement. More generally, I value self governance,
+              mutual aid, and other anarchistic notions of voluntary cooperation.">
+         	  <img src="./img/coop.png" height="65">
+         	</button>
+
+         	<button
+            type="button"
+            id="pythonbutton"
+            class="btn btn-link"
+            data-container="body"
+            data-toggle="popover"
+            data-placement="top"
+            title="Python"
+            data-content="
+             	Beautiful is better than ugly.
+             	Explicit is better than implicit.
+             	Simple is better than complex.
+             	Complex is better than complicated.
+             	Flat is better than nested.
+             	Sparse is better than dense.
+             	Readability counts.
+             	Special cases aren't special enough to break the rules.
+             	Although practicality beats purity.
+             	Errors should never pass silently.
+             	Unless explicitly silenced.
+             	In the face of ambiguity, refuse the temptation to guess.
+             	There should be one-- and preferably only one --obvious way to do it.
+             	Although that way may not be obvious at first unless you're Dutch.
+             	Now is better than never.
+             	Although never is often better than *right* now.
+             	If the implementation is hard to explain, it's a bad idea.
+             	If the implementation is easy to explain, it may be a good idea.
+             	Namespaces are one honking great idea -- let's do more of those!">
+         	  <img src="./img/python.png" height="65">
+         	</button>
+
+         	<button
+            type="button"
+            id="coffeebutton"
+            class="btn btn-link"
+            data-container="body"
+            data-toggle="popover"
+            data-placement="bottom"
+            title="Coffee"
+            data-content="Quad-shot Americanos. Death before decaf.">
+         	  <img src="./img/coffee.png" height="65">
+         	</button>
+
+    			<button
+            type="button"
+            id="japanbutton"
+            class="btn btn-link"
+            data-container="body"
+            data-toggle="popover"
+            data-placement="top"
+            title="Japanese"
+            data-content="I graduated with a Japanese emphasis and have been
+            studying Japanese for about half of my life. I've spent 3 months
+            volunteering there in early 2013. ペラペラじゃないけど、いずれなりたいです.
+            もうすぐも戻らなくちゃ！">
+    		  <img src="./img/nihon.png" height="65">
+    		</button>
+
+    		<button
+          type="button"
+          id="bikebutton"
+          class="btn btn-link"
+          data-container="body"
+          data-toggle="popover"
+          data-placement="bottom"
+          title="Cycling"
+          data-content="Fixed polo, bicycle touring, and commuting -
+            pretty much anyway you go about, I really like bicycles.">
+    		  <img src="./img/bike.png" height="95">
+  		  </button>
+      </div>
+      <!-- END OF ABOUT -->
+      <div id="work" class="section">
+        <h2>work</h2>
+        <p>
+        2016 - Now<br/>
+        Currently I work on Splunk's Machine Learning team as a Software Engineer.<br/><br/>
+
+        2014 - 2016<br/>
+          I was a Senior Technical Training Instructor at Splunk. I taught people how to make big data
+          useable, valuable, and accessible via classes on exploratory data analysis, querying,
+          processing and visualizing data, statistical modeling, data science and machine learning.
+        </p>
+      </div>
+      <!-- END OF WORK -->
+      <div id="research" class="section">
+        <h2>research</h2>
+        <p>
+          I'm interested in cognitive science, machine learning, and linguistics. You can read my
+          senior thesis on <a href="docs/AlexanderJohnsonThesis.pdf">the role of morphology in vector
+          space semantics</a>. Since then, I've been focusing on more general NLP techniques.
+        </p>
+      </div>
+      <!--END OF RESEARCH -->
+      <div id="projects" class="section">
+        <h2>projects</h2>
+        <ul>
+          <li>
+            <div class="project">
+              <h3><a href="dreda/">DREDA</a></h3>
+              <p>
+                Dimensionality Reuced Exploratory Data Analysis (DREDA) is a pedagogical tool I made in Javascript for exploring high dimensional data that has been
+                reduced to 3 dimensions. The website is primarily a tool for presentation, intended to be used by a
+                data analyst who is well versed with their data set. It's assumed they have already clustered and
+                reduced their dataset. The site features an upload form where users can upload their own dataset.
+                The minimal design, dark background, and rotation are intended for large scale projection,
+                presentation and display purposes - in conjunction with teaching the value of dimensionality
+                reduction as well as its ability to provide insight into large, high dimensional datasets.
+              </p>
+              <p>
+                  It is all clientside javascript and uses three.js / WebGL. In general, it scales to 100,000+ points.
+                  It is also open sourced <a href="github.com/metasyn/dreda">here</a>
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="project">
+              <h3><a href="shows/">sf show map</a></h3>
+              <p>
+                This was a project that scrapes <a href="http://www.foopee.com/punk/the-list/">the list</a> for music shows and plots the points
+                on a map. I found myself loading the list all the time but sometimes forgetting exactly where particular venues
+                were located. Its really just a tool for myself, but maybe some other people will have fun using it as well. It uses YQL to scrape
+                the data and mapbox and leaflet to do the mapping. You can check out code open sourced <a href="http://github.com/metasyn/sfpunkshowmap">here</a>.
+              </p>
+            </div>
+          </li>
+        </ul>
+        <p>
+          you follow some of my other smaller projects on my blog or github.
+        </p>
+      </div>
+      <!-- END OF PROJECTS -->
+      <div id="contact" class="section">
+        <h2>contact</h2>
+        <p>
+          The best way to contact me is via email. alexx dot johnson at gmail. The next best way is to use
+          <a href="https://contact.metasyn.pw">this contact form</a>. Lastly, feel free to use any of the services shown below.
+          My twitter handle (and handle on most things) is @metasyn.
+        </p>
+      </div>
+    </div>
+      <div class="jumbotron" id="social">
+
+	      <center>
+	      	<a href="http://github.com/metasyn/">
+	      	<img src="./img/octocat.png" height="32" width="32" class="socialicon"></a>
+
+	      	<a href="http://metasyn.tumblr.com/">
+	      	<img src="./img/tumblr.png" class="socialicon"></a>
+
+	      	<a href="http://twitter.com/metasyn/">
+	      	<img src="./img/twitter.png" class="socialicon"></a>
+
+	      	<a href="http://instagram.com/metasyn">
+	      	<img src="./img/instagram.png" heigth="32" width="32" class="socialicon"></a>
+
+	      	<a href="http://flickr.com/metasyn">
+	      	<img src="./img/flickr.png" class="socialicon"></a>
+
+	      	<a href = "http://soundcloud.com/metasyn">
+	      	<img src= "./img/soundcloud.png" class="socialicon"></a>
+
+	      	<a href="http://metasyn.bandcamp.com">
+	      	<img src="./img/bandcamp.png" height="32" width="32" class="socialicon"></a>
+
+	      	<a href="http://www.linkedin.com/pub/alexander-johnson/29/251/330/" >
+	      	<img src="./img/linkedin.png" width="32" height="32" class="socialicon"></a>
+
+				</center>
+			</div>
+    </div>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/javascript.js"></script>
+    <script src="./js/jquery.color-2.1.2.min.js"></script>
+  </body>
+</html>

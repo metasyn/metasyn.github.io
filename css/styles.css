@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/*!
+* http://metasyn.pw
+* Xander Johnson
+* Wobble from love.travis-ci
+*/
+
+@-webkit-keyframes wobble  {
+  0%  { -webkit-transform:  rotate(0deg); }
+  20%  { -webkit-transform:  rotate(2deg); }
+  50%  { -webkit-transform:  rotate(-2deg); }
+  100%  { -webkit-transform:  rotate(0deg); }
+}
+.wobble { -webkit-animation: wobble 5s ; }
+
+.column {
+	width: 30%;
+}
+
+.socialicon{
+				-moz-transform: rotate(0deg);
+				-moz-transition: -moz-transform 0.25s ease-in-out;
+        -webkit-transform: rotate(0deg);
+        -webkit-transition: -webkit-transform 0.25s ease-in-out;
+        -o-transform: rotate(0deg);
+        -o-transition: -o-transform 0.25s ease-in-out;
+        transform: rotate(0deg);
+        transition: transform 0.25s ease-in-out;
+        }
+
+.socialicon:hover{    
+				-moz-transform: rotate(360deg);
+				-moz-transition: -moz-transform 0.25s ease-in-out;
+      	-webkit-transform: rotate(360deg);
+        -webkit-transition: -webkit-transform 0.25s ease-in-out;
+        -o-transform: rotate(360deg);
+        -o-transition: -o-transform 0.25s ease-in-out;
+        transform: rotate(360deg);
+        transition: transform 0.25s ease-in-out;
+        }
+
+button{
+				-moz-transform: rotate(0deg);
+				-moz-transition: -moz-transform 0.25s ease-in-out;
+        -webkit-transform: rotate(0deg);
+        -webkit-transition: -webkit-transform 0.25s ease-in-out;
+        -o-transform: rotate(0deg);
+        -o-transition: -o-transform 0.25s ease-in-out;
+        transform: rotate(0deg);
+        transition: -o-transform 0.25s ease-in-out;
+        }
+
+button:hover
+      {   	
+      	-moz-transform: scale(1.2, 1.2);
+      	-moz-transition: -moz-transform 0.25s ease-in-out;
+       	-webkit-transform: scale(1.2, 1.2);
+       	-webkit-transition: -webkit-transform 0.25s ease-in-out;
+       	-o-transform: scale(1.2, 1.2);
+       	-o-transition: -o-transform 0.25s ease-in-out;
+       	transform: scale(1.2, 1.2);
+       	transition: -o-transform 0.25s ease-in-out;
+       	}
+
+#social {
+	padding: 15px;
+}
