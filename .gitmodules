@@ -1,0 +1,3 @@
+[submodule "sfpunkshowmap"]
+	path = sfpunkshowmap
+	url = https://github.com/metasyn/sfpunkshowmap
