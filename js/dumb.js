@@ -1,11 +1,4 @@
-$(document).ready(function(){
-    //Who even are you
-    $("#name").addClass("animated fadeInUpBig");
-});		
-
-$("button").popover({ trigger: "hover" });	
-
-$("button").hover(function(){
+$(".jumbotron").hover(function(){
 
     // Let's load the page up with a new color each time
     
@@ -47,11 +40,6 @@ $("button").hover(function(){
     $(".jumbotron").animate({
         backgroundColor: colors[Math.floor((Math.random() * 10) + 1)]
         // Choose the first element, post-shuffle
-    }, 4000 ); // 4000 means real slow
-});
-
-
-
-
-
+    }, 2000 );
+})
 
