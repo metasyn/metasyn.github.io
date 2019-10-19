@@ -1,0 +1,8 @@
+{
+    "identifier": "pw.metasyn.action-bar",
+    "name": "Action Bar",
+    "content_type": "SN|Component",
+    "area": "editor-stack",
+    "version": "1.1.1",
+    "url": "https://metasyn.pw/sn/ext/action-bar"
+}

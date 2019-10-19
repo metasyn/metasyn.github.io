@@ -1,0 +1,8 @@
+{
+    "identifier": "pw.metasyn.simple-task-editor",
+    "name": "Simple Task Editor",
+    "content_type": "SN|Component",
+    "area": "editor-editor",
+    "version": "1.1.8",
+    "url": "https://metasyn.pw/sn/ext/simple-task-editor/dist"
+}

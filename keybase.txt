@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/metasyn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://metasyn.pw
+  * I am metasyn (https://keybase.io/metasyn) on keybase.
+  * I have a public key ASAN0Vq1KgweJgycHFa-cRsdG18cpCFSxB1BUNqFTrMWfQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101520ca5e371804edbe12276ca067e88bd3c8ef9832153dcaf6aefeaf833e0e4890a",
+      "host": "keybase.io",
+      "kid": "01200dd15ab52a0c1e260c9c1c56be711b1d1b5f1ca42152c41d4150da854eb3167d0a",
+      "uid": "ccf767aa5c98ac1ec5daa691d6d7f719",
+      "username": "metasyn"
+    },
+    "merkle_root": {
+      "ctime": 1568038663,
+      "hash": "b4111bd12603219ea0c2cace00b50ef9d3ef039f796ca9f07904eff84bda4adb6c64b767fa811cf592bf0974eded669f4944589a082e92d297f4ba32c7bbf7b1",
+      "hash_meta": "84f589b6e5d3db7257251006198c6f4372e263683a3f9acd94273880b001c0c8",
+      "seqno": 6207396
+    },
+    "service": {
+      "entropy": "LABwBjEXdJi+I9579jYCbr7W",
+      "hostname": "metasyn.pw",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.4.0"
+  },
+  "ctime": 1568038676,
+  "expire_in": 504576000,
+  "prev": "da36ab95bb94a8a7b747c0771fd88bca17947a52cabd17640515b9085895f1d9",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgDdFatSoMHiYMnBxWvnEbHRtfHKQhUsQdQVDahU6zFn0Kp3BheWxvYWTESpcCCMQg2jarlbuUqKe3R8B3H9iLyheUelLKvRdkBRW5CFiV8dnEIP0c6Qbniv3Q078sYDLsbhk0iVrbSOr8onjKHuBsui3vAgHCo3NpZ8RAujRqvsc9gnxNlI+/fFr9VIeKLaG2fd8AU5aK0t4vOZ5+rnSPWRLXu9OzJ2rxc45CRWCtpODGzCFBcx7ffvEFCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHYMkzcn+2GcmQg+OIYC7ro1xhae0tUrIGEN440OUjBuo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/metasyn
+
+==================================================================
